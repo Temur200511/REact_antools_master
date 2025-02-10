@@ -1,0 +1,23 @@
+.main2 h2 {
+    text-align: center;
+    font-size: 48px;
+    font-family: "Poppins";
+    font-weight: 500;
+    color: #FFFFFFE5;
+}
+.main2-p {
+    color: #FFFFFF8C;
+    font-size: 18px;
+    text-align: center;
+    font-family: "Poppins";
+    font-weight: 500;
+    width: 400px;
+
+}
+.main2 {
+    margin-top: 150px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 30px;
+}

@@ -1,0 +1,25 @@
+form {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 500px;
+    gap: 10px;
+    height: 64px;
+    padding: 10px;
+    background-color: #1E252B;
+    border-radius: 15px;
+    border: 1.5px solid #283036;
+}
+
+input {
+    width: 100%;
+    padding: 10px 20px;
+    font-family: "Poppins";
+    font-weight: 500;
+    background-color: transparent;
+    color: #FFFFFF61;
+}
+form img {
+    width: 24px;
+    height: 24px;
+}

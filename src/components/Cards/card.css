@@ -1,0 +1,76 @@
+.cards {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 30px;
+}
+.card {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 10px;
+    padding: 40px 20px;
+    width: 380px;
+    height: 252px;
+    background-color: #1E252B;
+    border-radius: 15px;
+    transition: all 0.3s ease-in-out;
+    cursor: pointer;
+    
+}
+.card-img {
+    width: 50px;
+    height: 50px;
+}
+.card-title {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+.card-title b {
+    font-size: 24px;
+    font-family: "Poppins";
+    font-weight: 500;
+    color: #FFFFFFE5;
+}
+.card-title p {
+    color: #FF6E30;
+    font-size: 18px;
+    font-family: "Poppins";
+    font-weight: 400;
+}
+.card-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+.card-content p {
+    color: #FFFFFF8C;
+    font-size: 16px;
+    font-family: "Poppins";
+    font-weight: 400;
+    width: 350px;
+    text-align: start;
+    margin-left: 10px;
+    margin-bottom: 20px;
+}
+.visit {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 170px;
+}
+.visit-img {
+    width: 96px;
+    height: 42px;
+    cursor: pointer;
+}
+
+.card:hover {
+    transition: all 0.3s ease-in-out;
+    border: 2px solid #28303699;
+    box-shadow: #232a31 0px 4px 12px 0px;
+}

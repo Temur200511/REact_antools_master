@@ -1,0 +1,24 @@
+.last {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 40px;
+    margin-top: 300px;
+}
+
+.last h4 {  
+    font-size: 24px;
+    font-weight: 600;
+    font-family: "Poppins";
+    color: #FFFFFF;
+    text-align: center;
+}
+
+.last p {
+    font-size: 16px;
+    font-weight: 400;
+    font-family: "Poppins";
+    color: #FFFFFF8C;
+    text-align: center;
+    width: 430px;
+}
